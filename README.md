@@ -20,3 +20,23 @@ Shell scripting in linux means writing a series of commands in a file called **`
 ```bash
         :wq!
 ```
+5. Make the file executbale
+```bash
+        chmod +x hello.sh
+```
+6. run the script
+```bash 
+        ./hello.sh
+```
+### Check the shells avilable 
+```bash
+        cat /etc/shells
+```
+#### Common shells 
+| Shell     | Path     | Description       |
+|----------------|----------------|----------------|
+| sh | /bin/sh  | Bourne Shell (original UNIX shell) |
+| bash| /bin/bash | Bourne Again Shell (default on Linux)  |
+| zsh | /bin/zsh   | Z Shell – modern, customizable  |
+| ksh | /bin/ksh   | Korn Shell – used in UNIX systems  |
+| fish| /usr/bin/fish | friendly interactive shell
