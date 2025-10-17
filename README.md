@@ -1,7 +1,7 @@
 <h1 align="center">Shell Scripting in Linux </h1>
 
 ### Definition:
-Shell scripting in linux means writing a series of commands in a file called **script** that is executed by **shell**.
+Shell scripting in linux means writing a series of commands in a file called **`script`** that is executed by **`shell`**.
 
 ### Structure of shell scripting:
 1. Create the file 
