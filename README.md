@@ -5,14 +5,14 @@ Shell scripting in linux means writing a series of commands in a file called **s
 
 ### Structure of shell scripting:
 1. Create the file 
-        ```bash
+```bash
         touch hello.sh
-        ```
+```
 2. Edit the file 
-        ```bash
+```bash
         vim hello.sh
-        ```
+```
 3. Writing the script
-        ```bash
+```bash
         echo "hello, shubham! Welcome to shell scripting"
-        ```
+```
