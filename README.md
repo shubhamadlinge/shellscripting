@@ -40,3 +40,22 @@ Shell scripting in linux means writing a series of commands in a file called **`
 | zsh | /bin/zsh   | Z Shell – modern, customizable  |
 | ksh | /bin/ksh   | Korn Shell – used in UNIX systems  |
 | fish| /usr/bin/fish | friendly interactive shell
+
+### Checking the Current Shell 
+```bash
+        echo$SHELL
+```
+```bash 
+        echo$0
+```
+## First shell script
+```bash
+        #!/bin/bash # This is the shebang line
+
+
+        echo "Hello, Shubham! Welcome to shell scripting."
+        echo "Today is $(date)" #Command substitution — runs the command inside parentheses and substitutes its output.
+        echo "You are logged in as $USER" #A system variable that holds your username.
+```
+
+
