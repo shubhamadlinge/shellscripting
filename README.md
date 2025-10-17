@@ -16,3 +16,7 @@ Shell scripting in linux means writing a series of commands in a file called **`
 ```bash
         echo "hello, shubham! Welcome to shell scripting"
 ```
+4. Save and exit 
+```bash
+        :wq!
+```
